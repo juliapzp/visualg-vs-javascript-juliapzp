@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Calculo Baleia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Calculo Baleia:</h1>
+  <div id="baleia-container">
+    <img src="baleia.png" alt="baleia">
+  </div>
+  <div id="resultado"></div>
+  <script src="baleia.js"></script>
+  <h1>Pseudocodigo:</h1>
+  <pre>algoritmo "Algoritmo42"
+var 
+expectativavida: inteiro
+mediafilhotes, totalfilhotes: real
+inicio
+expectativavida <- 200
+totalfilhotes <- expectativavida / 4
+mediafilhotes <- totalfilhotes / (expectativavida / 10)
+escreval("Total de filhotes ao longo da vida: ", totalfilhotes)
+escreval("Media de filhotes por decada: ", mediafilhotes)
+fimalgoritmo
+  </pre>
+  <div id="print-container">
+    <img src="print.png" alt="print">
+  </div>
+  <h1>Codigo em JS:</h1>
+  <pre>var expectativavida = 200;
+var totalfilhotes = expectativavida / 4;
+var mediafilhotes = totalfilhotes / (expectativavida / 10);
+
+var resultado = document.getElementById("resultado");
+resultado.innerHTML = "<p>Total de filhotes ao longo da vida: " + totalfilhotes + "</p>";
+resultado.innerHTML += "<p>Media de filhotes por decada: " + mediafilhotes + "</p>";
+  </pre>
+</body>
+</html>

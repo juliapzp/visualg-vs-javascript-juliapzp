@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+    margin: 0;
+    background-color: #2b3641;
+    font-family: Arial, sans-serif;
+    color: #ecf0f1;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px auto;
+    color: #3498db;
+}
+
+#baleia-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#resultado {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 10px;
+    border: 2px solid #2c3e50;
+    color: #ecf0f1;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    max-width: 600px;
+}
+
+pre {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 10px;
+    border: 2px solid #2c3e50;
+    color: #ecf0f1;
+    font-size: 1.2em;
+    white-space: pre-wrap;
+    max-width: 600px;
+}
+
+#print-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#print-container img {
+    max-width: 700px;
+    height: auto;
+}
+
+.square {
+    background-color: #2c3e50;
+    border-radius: 10px;
+    border: 2px solid #34495e;
+    height: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.square:first-of-type {
+    margin-top: 0;
+}
+
+.square:last-of-type {
+    margin-bottom: 0;
+}
